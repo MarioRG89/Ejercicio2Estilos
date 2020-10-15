@@ -90,9 +90,13 @@ label{
 }
 
 /*Hacer que el elemento H1 cambie de color a azul cuando se pase el ratón por encima - 0,5 PUNTOS */
-
+h1:hover {
+    color: blue;
+}
 
 /*Hacer que los enlaces visitados se conviertan a color gris - 0,5 PUNTOS */
-
+a:visited{
+    color: grey;
+}
 /*Nota: Si se hacen todas bien supone un 10,5 puntos */ 
 

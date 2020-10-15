@@ -30,7 +30,6 @@ p{
 /*Hacer que todos los inputs tengan un border de 3px rojo - 0,5 PUNTOS */
 input{
     border: 3px solid red;
-    
 }
 
 /* Dar a todo elemento que tenga la clase  'hello' un background blanco - 0,5 PUNTOS*/
@@ -75,7 +74,7 @@ div:nth-of-type(3) em{
 
 
 /*Hacer que todos los checkboxes seleccionados  tengan un margen izquierdo de 50px(margin-left: 50px) - 1 PUNTO */
-input[type=checkbox]{
+input[type=checkbox]:checked{
     margin-left: 50px;
 }
 /* Hacer  todos los elementos <label> se conviertan a mayúsculas SIN CAMBIAR HTML - 1 PUNTO */
